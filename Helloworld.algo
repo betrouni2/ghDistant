@@ -11,7 +11,7 @@ window.Set(200,200)
 // Créer un label avec du texte centré et contenant le texte ‘Hello world’
 label = Create.Label('Hello World')
 Créer la couleur jaune
-color = Color.jaune
+color = Color.cyan
 Mettre la couleur jaune sur le label
 label.color = color
 // Finalisation
