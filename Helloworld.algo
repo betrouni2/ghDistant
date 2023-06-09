@@ -1,16 +1,24 @@
 Algo HelloWorld {
  fonction principale {
 // Création de la fenetre
+window = Create.Windows('Hello World')
  Créer une fenetre de titre ‘Hello world’
-Mettre la dimension à 200, 200
-Configurer la fenetre sur ‘exitOnClose’
+//Mettre la dimension à 200, 200
+window.Set(200,200)
+//Configurer la fenetre sur ‘exitOnClose’
 // Création du label de texte
-Créer un label avec du texte centré et contenant le texte ‘Hello world’
+
+// Créer un label avec du texte centré et contenant le texte ‘Hello world’
+label = Create.Label('Hello World')
 Créer la couleur jaune
+color = Color.jaune
 Mettre la couleur jaune sur le label
+label.color = color
 // Finalisation
-Ajouter le lable sur la fenetre
-Afficher la fenêtre
+//jouter le lable sur la fenetre
+window.addElement(label)
+//Afficher la fenêtre
+console.log('landing page')
+print(window)
 }
 }
-E
